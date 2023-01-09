@@ -12,7 +12,7 @@ jobs:
         run: npm audit --audit-level moderate
         env:
           CI: true
-analyze:
+  analyze:
     name: Analyze
     runs-on: ubuntu-latest
     permissions:
